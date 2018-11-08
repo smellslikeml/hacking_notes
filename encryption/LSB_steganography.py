@@ -66,7 +66,7 @@ def extract_message(carrier):
 
 
 if __name__ == '__main__':
-    Hide_message('/home/funk/Downloads/image.png', 'my hidden msg', 'tst.png')
+    Hide_message('image.png', 'my hidden msg', 'tst.png')
     print(extract_message('tst.png'))
 
 

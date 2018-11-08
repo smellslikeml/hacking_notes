@@ -1,4 +1,4 @@
-# Notes on Information Security
+# Simple Infosec Toolkit
 
 This repo serves to complement the reading in:
  
@@ -14,10 +14,8 @@ This repo serves to complement the reading in:
 
 ## What You'll Find
 
-* Understanding these techniques will help you build tools with fewer unintended applications.
+* Understanding hacks to help write code with fewer unintended uses.
 * Solve Bug Bounties to get paid while sharpening your skills.
-* Some methods cross over for more benign applications.
+* Learn techniques with more benign applications.
 * A fascinating history in hacking.
 
-## Notes
-* The Hacker Playbook -- configure Kali machine with tools

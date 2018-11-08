@@ -20,4 +20,4 @@ root = dsp.screen().root
 raw = root.get_image(0, 0, W,H, X.ZPixmap, 0xffffffff)
 image = Image.frombytes("RGB", (W, H), raw.data, "raw", "BGRX")
 file_path = os.path.join(os.environ['HOME'], '.screenshot.png')
-image.save(file_path) #show()
+image.save(file_path)

