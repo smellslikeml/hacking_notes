@@ -1,7 +1,17 @@
 #!/usr/bin/env python
-from imgurpython import ImgurClient
+'''
+Hide messages in Imgur images with Steganography
+'''
+import os
+import sys
+import ast
+import time
+import shlex
+import base64
+import random
+import subprocess
 import LSB_steganography as LSB
-import ast, os, time, shlex, subprocess, base64, random, sys
+from imgurpython import ImgurClient
 
 def get_input(string):
     try:

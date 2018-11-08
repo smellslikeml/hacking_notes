@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+'''
+Save screenshots to hidden file
+'''
 import os
 import subprocess
 from Xlib import display, X

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from scapy.all import *
-interface = 'wlp2s0mon' #'mon0'
+interface = 'wlp2s0mon'
 probeReqs = []
 
 def sniffProbe(p):

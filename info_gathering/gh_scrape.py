@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 '''
+Example of information gathering from 
+a targeted github user.
 [Dependency]
     pip install github3.py
 [Usage]

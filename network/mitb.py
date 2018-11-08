@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 '''
+Waits for user to authenticate to 
+Facebook or Google account
 From Black Hat Python
 [Usage]
     python mitb.py
@@ -62,25 +64,3 @@ while True:
         except:
             pass
     time.sleep(5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

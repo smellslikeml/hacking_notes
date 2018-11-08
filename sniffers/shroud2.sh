@@ -1,4 +1,6 @@
 #!/bin/sh
+# hiding open ports by showing all ports open
+# requires rebuilding linux kernel
 HOST="192.168.1.20"
 /usr/sbin/tcpdump -e -S -n -p -l "(tcp[13] == 2) and (dst host $HOST)" | /bin/awk
 '{

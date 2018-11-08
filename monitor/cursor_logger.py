@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+'''
+Logs cursor movement
+Can be used to help determine if 
+attacker is in a sandbox.
+Use to develop ML model to identify
+abnormal usage patterns for
+intrusion detection.
+'''
 import os
 import time
 from Xlib import display

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 '''
 Arp-poisoning script from Black Hat Python
+Tricking client into sending traffic destined
+for internet gateway through attacking machine.
 [Usage]
     set port forwarding:
         echo 1 > /proc/sys/net/ipv4/ip_forward

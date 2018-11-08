@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-
+'''
 __author__ = "bt3"
-
+Scapy Distributed Denial of Service Attack
+'''
 import threading
 import socket
 from scapy.all import *

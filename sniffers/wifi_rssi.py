@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 '''
+Use RSSI as a proxy for distance like:
 https://arxiv.org/pdf/1810.10109.pdf
 #print(pkt[RadioTap].dBm_AntSignal)
 '''

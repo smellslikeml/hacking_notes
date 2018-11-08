@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+'''
+Take screenshots for targeted url
+Can be useful to eliminate results
+from subdomain enumeration.
+Can be used to locally clone a web application
+to limit requests in exploration.
+'''
 import sys
 import time
 

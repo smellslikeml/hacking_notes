@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+'''
+Sends very large packet to victim
+'''
 import sys
 from scapy.all import *
 

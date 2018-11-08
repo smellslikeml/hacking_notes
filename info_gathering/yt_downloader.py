@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+'''
+Download youtube videos relevant 
+to search results
+[Usage]
+    python yt_downloader.py 'query string'
+'''
 import os
 import sys
 import requests

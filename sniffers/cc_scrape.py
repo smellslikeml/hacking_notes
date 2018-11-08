@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+'''
+Using scapy and regular expressions
+to pull credit card numbers
+from unencrypted http traffic
+[Usage] python cc_scrape.py
+'''
 import re
 from scapy.all import *
 import argparse

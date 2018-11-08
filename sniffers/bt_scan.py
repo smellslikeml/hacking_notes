@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+'''
+Scanning for bluetooth devices
+'''
 import time
 from bluetooth import *
 

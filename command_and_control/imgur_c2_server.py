@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+'''
+Hide messages to Imgur images through steganography
+'''
 from imgurpython import ImgurClient
 import random, time, ast, base64
 import LSB_steganography as LSB

